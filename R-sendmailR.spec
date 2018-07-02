@@ -4,7 +4,7 @@
 #
 Name     : R-sendmailR
 Version  : 1.2.1
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/sendmailR_1.2-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/sendmailR_1.2-1.tar.gz
 Summary  : send email using R
