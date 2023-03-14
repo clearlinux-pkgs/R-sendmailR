@@ -4,7 +4,7 @@
 #
 Name     : R-sendmailR
 Version  : 1.4.0
-Release  : 41
+Release  : 42
 URL      : https://cran.r-project.org/src/contrib/sendmailR_1.4-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/sendmailR_1.4-0.tar.gz
 Summary  : Send Email Using R
@@ -13,9 +13,6 @@ License  : GPL-2.0
 Requires: R-base64enc
 BuildRequires : R-base64enc
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 provides a portable solution for sending email, including file attachments and inline html reports, 
@@ -30,10 +27,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1673545759
+export SOURCE_DATE_EPOCH=1678833260
 
 %install
-export SOURCE_DATE_EPOCH=1673545759
+export SOURCE_DATE_EPOCH=1678833260
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
